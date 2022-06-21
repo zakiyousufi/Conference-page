@@ -28,7 +28,43 @@
 
 .logo {
   font-size: 30px;
+  font-family: 'Crete Round', sans-serif;
   color: #fff;
   margin-left: 5%;
   margin-right: 25%;
+}
+
+.pg1-sec {
+  background-image: url("/Images/bkgrnd.png");
+  height: auto;
+  padding: 80px 50px;
+}
+
+.hello-world {
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+  color: rgb(252, 76, 63);
+  margin-bottom: 10px;
+}
+
+.event-name {
+  font-size: 72px;
+  font-family: 'Crete Round', sans-serif;
+  color: rgb(252, 76, 63);
+}
+
+.event-dis {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  border: 6px solid #fff;
+  padding: 20px 20px;
+  margin-top: 20px;
+}
+
+.event-start {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  padding: 20px 20px;
+  margin-top: 20px; 
 }
