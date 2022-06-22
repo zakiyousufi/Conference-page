@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  padding: 10px 10px 20px 10px;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: column;
+  justify-content: space-between;
+}
+
+.menu-icon {
+  padding: 30px 10px 10px 20px;
+  width: 43px;
+  height: auto;
+}
+
+.m-menu {
+  width: 30px;
+  margin-bottom: 3px;
+  margin-bottom: 10%px;
+  border: 3px solid #fff;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: 'Crete Round', sans-serif;
+  color: #fff;
+  margin-left: 15%;
+  margin-right: 20%;
+}
+
+.pg1-sec {
+  background-image: url("/Images/bkgrnd.png");
+  height: auto;
+  padding: 80px 50px;
+  width: 100%;
+}
+
+.hello-world {
+  font-size: 25px;
+  font-family: 'Inter', sans-serif;
+  color: #ec5242;
+  margin-bottom: 10px;
+}
+
+.event-name {
+  font-size: 45px;
+  font-family: 'Crete Round', sans-serif;
+  color: #ec5242;
+}
+
+.event-dis {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  border: 6px solid #fff;
+  padding: 20px 20px;
+  margin-top: 20px;
+}
+
+.event-start {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  padding: 20px 20px;
+  margin-top: 20px; 
+}
+
+.user-sec {
+background-image: url("/Images/user-sec.jpg");
+width: 100%;
+height: auto;
+padding: 20px 20px;
+}
+
+.date {
+  padding: 20px 40px;
+  width: 100%;
+  background-color: rgb(48, 48, 48);
+  margin-bottom: 20px;
+  color: rgb(45, 187, 45);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.ticket {
+  padding: 20px 40px;
+  width: 100%;
+  background-color: rgb(73, 73, 73);
+  margin-bottom: 20px;
+  color: rgb(169, 170, 169);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.shop {
+  padding: 20px 40px;
+  width: 100%;
+  background-color: rgb(240, 24, 24);
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.day-pass {
+  padding: 20px 40px;
+  width: 100%;
+  background-color: rgb(73, 73, 73);
+  margin-bottom: 20px;
+  color: rgb(169, 170, 169);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-hover:hover {
+  border: 2px solid #fff;
+}
+
+.icon {
+  width: 90px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.icon2 {
+  opacity: 50%;
+}
