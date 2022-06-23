@@ -43,15 +43,38 @@ const speakerArr = [
   },
 ]
 
+const hamburger = document.querySelector('.menu-icon');
+const  mobileMenu = document.querySelector('.menu-ul');
+const fLink = document.querySelector('.link1');
+const sLink = document.querySelector('.link2');
+const tLink = document.querySelector('.link3');
+const closeBtn = document.querySelector('.close')
+
+hamburger.addEventListener('click', () => {
+  mobileMenu.classList.toggle('active')
+});
+fLink.addEventListener('click', () => {
+  mobileMenu.classList.remove('active')
+});
+sLink.addEventListener('click', () => {
+  mobileMenu.classList.remove('active')
+});
+tLink.addEventListener('click', () => {
+  mobileMenu.classList.remove('active')
+});
+closeBtn.addEventListener('click', () => {
+  mobileMenu.classList.remove('active')
+});
+
 /*< <img> <h1-p-hr-p> >*/
 function displaySpeakers() {
   const speakerSec = document.querySelector('.persons')
   const speaker = document.createElement('div');
   speaker.classList.add('speaker');
 
-  speakerArr.forEach((person), index => {
+  speakerArr.forEach((person) => {
     const projectHTML = `
-    <div id="${index}" class="${person.class}">
+    <div class="${person.class}">
       <h1 class="feacher-speakers">Featured Speakers</h1>
       <hr class="speaker-hr1">
       <div class="img-div">
@@ -67,5 +90,4 @@ function displaySpeakers() {
     speaker.insertAdjacentHTML('beforeend', projectHTML);
   });
   speakerSec.appendChild(speaker);
-  console.log (projectHTML)
 }

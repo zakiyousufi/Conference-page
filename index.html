@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="./css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,9 +20,14 @@
       <hr class="m-menu">
       <hr class="m-menu">
     </div>
-    <h1 class="logo">2022<br>_____GAMES_____</h1>
   </section>
-  <section class="pg1-sec">
+  <ul class="menu-ul">
+    <img class="close" alt="close" src="./Images/close.png">
+    <li class="links link1"><a class="menu-links" href ="#home">Home</a></li>
+    <li class="links link2"><a class="menu-links" href ="./about.html">About</a></li>
+    <li class="links link3"><a class="menu-links" href ="#program">program</a></li>
+  </ul>
+  <section id="home" class="pg1-sec">
     <h2 class="hello-world">"Hello, Sharing world"</h2>
     <h1 class="event-name">The World Games <br>2022 Birmingham, USA</h1>
     <p class="event-dis">The World Games is an 11-day international multi-sport event organized with the support of the
@@ -29,17 +36,21 @@
       from over 100 countries will compete for gold in more than 30 of the fastest growing sports in the world.</p>
       <p class="event-start">Birmingham, USA | July 7 - 17, 2022</p>
   </section>
-  <section class="user-sec">
-    <p class="date icon-hover"> <img alt="icon" class="icon" src="/Images/icons/icon-calendar.png">View Schedule</p>
-    <p class="ticket icon-hover"> <img alt="icon" class="icon icon2" src="/Images/icons/ticket.png">Buy Tickits Now</p>
-    <p class="shop icon-hover"> <img alt="icon" class="icon" src="/Images/icons/icon-shoping.png">Buy TWG Gear</p>
-    <p class="day-pass icon-hover"> <img alt="icon" class="icon icon2" src="/Images/icons/hearth.png">Day Pass</p>
+  <section id="program" class="user-sec">
+    <p class="date icon-hover"> <img alt="icon" class="icon" src="./Images/icons/icon-calendar.png">View Schedule</p>
+    <p class="ticket icon-hover"> <img alt="icon" class="icon icon2" src="./Images/icons/ticket.png">Buy Tickits Now</p>
+    <p class="shop icon-hover"> <img alt="icon" class="icon" src="./Images/icons/icon-shoping.png">Buy TWG Gear</p>
+    <p class="day-pass icon-hover"> <img alt="icon" class="icon icon2" src="./Images/icons/hearth.png">Day Pass</p>
   </section>
   <section class="persons">
     
   </section>
 
-  <script src="/js folder/index.js"></script>
+
+  <!-- <section class="partners">
+    <img class="partner1" alt="Company logo" src="">
+  </section> -->
+  <script src="./JS/index.js"></script>
 </body>
 
 </html>
