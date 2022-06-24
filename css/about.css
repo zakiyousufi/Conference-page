@@ -268,7 +268,7 @@ body {
     padding: 10px 30%;
   }
 
-  .header-logo{
+  .header-logo {
     display: block;
     width: 100px;
     height: 60px;
@@ -326,7 +326,7 @@ body {
     align-items: center;
   }
 
-  .red-img{
+  .red-img {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -338,5 +338,4 @@ body {
     margin-right: 20px;
     width: 80%;
   }
-
 }

@@ -11,7 +11,7 @@ const speakerArr = [
     position: 'Why playing games is important for health',
     info: 'Five corporate clients booked me from my IWD Speaker Directory listing for my Getting Ahead for Competence in a World Obsessed with Confidence presentation',
     pic: './Images/speakers/6.jpeg',
-    class: 'speaker1-2 first' ,
+    class: 'speaker1-2 first',
   },
   {
     name: 'John killer',
