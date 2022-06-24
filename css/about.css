@@ -29,6 +29,32 @@ body {
   height: auto;
 }
 
+.head-line {
+  display: none;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #3e3e3e;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 20px 20px;
+}
+
+.head-img {
+  width: 25px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.head-link {
+  color: #fff;
+  margin-right: 20px;
+}
+
 .m-menu {
   width: 30px;
   margin-bottom: 3px;
@@ -56,9 +82,13 @@ body {
   margin-top: 20px;
 }
 
+.header-logo {
+  display: none;
+}
+
 .links {
-  padding-top: 10px;
-  margin: 0 0 10px 20px;
+  padding-top: 5px;
+  margin: 0 0 10px 10px;
 }
 
 .menu-links {
@@ -160,6 +190,18 @@ body {
   padding: 20px 20px;
 }
 
+.see-past {
+  font-size: 20px;
+  text-align: center;
+  color: #303030;
+}
+
+.dis-past {
+  font-size: 16px;
+  text-align: center;
+  color: #303030;
+}
+
 .img1 {
   width: 60%;
   height: auto;
@@ -197,8 +239,104 @@ body {
   opacity: 60%;
 }
 
+.last-part {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px 10%;
+}
+
+.footer-logo {
+  width: 35%;
+  margin-right: 20%;
+}
+
 .last-p {
-  margin-left: 30%;
   color: rgb(134, 133, 138);
-  font-size: 34px;
+  font-size: 24px;
+  margin-left: 10%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 55px;
+    padding: 10px 30%;
+  }
+
+  .header-logo{
+    display: block;
+    width: 100px;
+    height: 60px;
+    margin-right: 55%;
+    margin-top: 0;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .m-menu {
+    display: none;
+  }
+
+  .menu-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 50px 10px 20px 5px;
+    width: 100%;
+    margin-right: 40%;
+  }
+
+  .head-line {
+    display: flex;
+  }
+
+  .links {
+    margin-right: 20px;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .pg1-sec {
+    padding: 20% 10%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .event-name {
+    width: 90%;
+  }
+
+  .event-dis {
+    width: 60%;
+  }
+
+  .event-start {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+  }
+
+  .red-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 30%;
+  }
+
+  .img1 {
+    margin: 0;
+    margin-right: 20px;
+    width: 80%;
+  }
+
 }
