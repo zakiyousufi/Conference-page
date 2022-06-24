@@ -32,7 +32,7 @@ const speakerArr = [
     position: 'speaker on Facebook',
     info: 'Mari Smith is the most authoritative and memorable keynote speaker on Facebook marketing today. With great enthusiasm, clarity and presence, she educates her audiences with timeless strategies blended with tactics and trends.',
     pic: './Images/speakers/5.jpeg',
-    class: 'speaker5'
+    class: 'speaker5',
   },
   {
     name: 'Andrew Ng\'s',
@@ -41,35 +41,35 @@ const speakerArr = [
     pic: './Images/speakers/6.jpeg',
     class: 'speaker6',
   },
-]
+];
 
 const hamburger = document.querySelector('.menu-icon');
-const  mobileMenu = document.querySelector('.menu-ul');
+const mobileMenu = document.querySelector('.menu-ul');
 const fLink = document.querySelector('.link1');
 const sLink = document.querySelector('.link2');
 const tLink = document.querySelector('.link3');
-const closeBtn = document.querySelector('.close')
+const closeBtn = document.querySelector('.close');
 
 hamburger.addEventListener('click', () => {
-  mobileMenu.classList.toggle('active')
+  mobileMenu.classList.toggle('active');
 });
 fLink.addEventListener('click', () => {
-  mobileMenu.classList.remove('active')
+  mobileMenu.classList.remove('active');
 });
 sLink.addEventListener('click', () => {
-  mobileMenu.classList.remove('active')
+  mobileMenu.classList.remove('active');
 });
 tLink.addEventListener('click', () => {
-  mobileMenu.classList.remove('active')
+  mobileMenu.classList.remove('active');
 });
 closeBtn.addEventListener('click', () => {
-  mobileMenu.classList.remove('active')
+  mobileMenu.classList.remove('active');
 });
 
-/*< <img> <h1-p-hr-p> >*/
-  const speakerSec = document.getElementById('speaker')
-  speakerArr.forEach((person) => {
-    const projectHTML = `
+/* < <img> <h1-p-hr-p> > */
+const speakerSec = document.getElementById('speaker');
+speakerArr.forEach((person) => {
+  const projectHTML = `
     <div class="speakers">
     <div id="${person.id}" class="${person.class}">
       <div class="img-div">
@@ -82,19 +82,19 @@ closeBtn.addEventListener('click', () => {
         <p class="s-info">${person.info}</p>
       </div>
     </div>
-    </div>`
-    speakerSec.insertAdjacentHTML('beforeend', projectHTML);
-  });
-  // see more speakers
-  const more = document.querySelector('.more')
-  const showSpeaker = document.querySelector('.speaker3');
-  const showSpeake = document.querySelector('.speaker4');
-  const showSpe = document.querySelector('.speaker5');
-  const showSp = document.querySelector('.speaker6');
+    </div>`;
+  speakerSec.insertAdjacentHTML('beforeend', projectHTML);
+});
+// see more speakers
+const more = document.querySelector('.more');
+const showSpeaker = document.querySelector('.speaker3');
+const showSpeake = document.querySelector('.speaker4');
+const showSpe = document.querySelector('.speaker5');
+const showSp = document.querySelector('.speaker6');
 
-  more.addEventListener('click', () => {
-    showSpeaker.classList.toggle('active');
-    showSpeake.classList.toggle('active');
-    showSpe.classList.toggle('active');
-    showSp.classList.toggle('active');
-  });
+more.addEventListener('click', () => {
+  showSpeaker.classList.toggle('active');
+  showSpeake.classList.toggle('active');
+  showSpe.classList.toggle('active');
+  showSp.classList.toggle('active');
+});
