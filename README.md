@@ -7,7 +7,7 @@ This is a html page which is contains all information about World Games 2022 eve
 [How it works](https://www.loom.com/share/3cc4cc3bc8494798b7878b7cc2e5a09c)
 
 ## 🖥️ Live Demo
-You can use this link [World Games 2022](https://zakiyousufi.github.io/Conference-page/) visiting this website
+You can use this link [World Games 2022]() visiting this website
 ### Markdown
 
 ## 🏛Built With
