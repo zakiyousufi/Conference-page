@@ -26,6 +26,13 @@ A browser
 Usage
 Clone the repositry and open the index.html which is in the folder.
 
+Clone the repositry and open the index.html which is in the folder.
+You can copy the the linke from code section that is in the rhight side of the page 
+copy the http or ssh link and open the terminal and select folder with (cd)
+then write (git clone PAST THE LINK HERE)
+open the index.html file in your brouser 
+=======
+
 
 ## Authors
 
