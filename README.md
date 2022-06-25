@@ -3,7 +3,7 @@
 
 This is a html page which is contains all information about World Games 2022 event I have used HTML and CSS and javascript for this project and you can use it in your local machin just by cloning this repo.
 
-## 👁 Video discribtion
+## 👁 Video  description
 [How it works](https://www.loom.com/share/3cc4cc3bc8494798b7878b7cc2e5a09c)
 
 ## 🖥️ Live Demo
