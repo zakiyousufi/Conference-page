@@ -26,6 +26,7 @@ A browser
 Usage
 Clone the repositry and open the index.html which is in the folder.
 
+
 ## Authors
 
 GitHub: [Ahmad Zaki Yousufi](https://github.com/zakiyousufi)
