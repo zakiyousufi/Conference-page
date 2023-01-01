@@ -43,7 +43,7 @@
 }
 
 .head-img {
-  color : #fff;
+  color: #fff;
   font-size: 17px;
   margin-right: 15px;
 }
@@ -51,10 +51,10 @@
 .head-link {
   color: #fff;
   margin-right: 20px;
-  
+
 }
 
-.h-logo { 
+.h-logo {
   display: none;
   color: #ec5242;
 }
@@ -97,9 +97,9 @@
 }
 
 .pg1-sec {
-  background:linear-gradient(45deg,
-  rgba(90, 167, 255, 0.466),
-  rgba(0, 0, 17, 0.9)), url("../Images/background.png");
+  background: linear-gradient(45deg,
+      rgba(90, 167, 255, 0.466),
+      rgba(0, 0, 17, 0.9)), url("../Images/background.png");
   height: auto;
   padding: 80px 50px;
   width: 100%;
@@ -124,7 +124,7 @@
   color: #ec5242;
 }
 
-.year {   
+.year {
   font-family: "Inter", sans-serif;
   font-style: bold;
   color: #fff;
@@ -325,11 +325,11 @@
   }
 
   .h-logo {
-   color: #fff;
-   font-size: 30px;
-   margin-right: 60%;
-   margin-top: 10px;
-   display: flex;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 60%;
+    margin-top: 10px;
+    display: flex;
   }
 
   .menu-icon {
@@ -369,7 +369,7 @@
   }
 
   .close {
-    color: #ec5242; 
+    color: #ec5242;
   }
 
   .pg1-sec {
