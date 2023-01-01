@@ -2,40 +2,45 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/about.css">
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Lato:wght@900&family=Poppins:wght@100;300&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conference</title>
+    <title>22's Games</title>
+    <link rel="icon" type="image/x-icon" href="./Images/logo.png">
+    <script src="https://kit.fontawesome.com/671b106b6e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <section class="navbar">
-        <div class="menu-icon">
-            <hr class="m-menu">
-            <hr class="m-menu">
-            <hr class="m-menu">
-        </div>
-    </section>
-    <ul class="menu-ul">
-        <div class="head-line">
-            <img alt="facebook" class="head-img" src="./Images/facebook.png">
-            <img alt="facebook" class="head-img" src="./Images/tweeter.png">
-            <li class="head-link"> English </li>
-            <li class="head-link"> Mypage</li>
-            <li class="head-link">Logout</li>
-        </div>
-        <img class="close" alt="close" src="./Images/close.png">
-        <img alt="logo" class="header-logo" src="./Images/logo.png">
-        <li class="links link1"><a class="menu-links" href="./index.html"> Home</a></li>
-        <li class="links link2"><a class="menu-links" href="./about.html">About</a></li>
-        <li class="links link3"><a class="menu-links" href="#program">program</a></li>
-        <li class="links link3"><a class="menu-links" href="#program">Speakers</a></li>
-    </ul>
     <section class="pg1-sec">
+        <div class="navbar">
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars m-menu"></i>
+            </div>
+            <ul class="menu-ul">
+                <div class="head-line">
+                    <i class="fa-brands fa-github head-img"></i>
+                    <i class="fa-brands fa-linkedin head-img"></i>
+                    <li class="head-link"> English </li>
+                    <li class="head-link"> Mypage</li>
+                    <li class="head-link">Logout</li>
+                </div>
+                <i class="fa-solid fa-gamepad h-logo"></i>
+                <i class="fa-solid fa-xmark close"></i>
+                <li class="links link1"><a class="menu-links" href="./index.html#home">Home</a></li>
+                <li class="links link2"><a class="menu-links" href="./about.html">About</a></li>
+                <li class="links link3"><a class="menu-links" href="./index.html#program">program</a></li>
+                <li class="links link4"><a class="menu-links" href="./index.html#speaker">Speakers</a></li>
+                <li class="links link5 worldGame"><a class="menu-links" href="#logo">World Games</li>
+            </ul>
+        </div>
         <h2 class="hello-world">"Hello, Sharing world"</h2>
         <h1 class="event-name">The World Games <br>2022 Birmingham, USA</h1>
         <p class="event-dis">international multi-sport event organized with the support of the International Olympic
@@ -48,12 +53,12 @@
         <p class="event-dis enjoy">Buy ticket and enjoy</p>
         <p class="event-start">Birmingham, USA | July 7 - 17, 2022</p>
     </section>
-    <section class="sec-logo">
+    <section id="logo" class="sec-logo">
         <h2 class="what-logo">The World Games logo</h2>
         <hr class="logo-hr">
         <p class="dis-logo">The logo of World Games submmit 2019 was decided through the logo competition from 9
             June to 12 Nov</p>
-        <img alt="logo" class="com-logo" src="./Images/logi.png">
+        <i class="fa-solid fa-gamepad main-logo"></i>
     </section>
     <hr class="line">
     <section class="past-story">
@@ -68,12 +73,14 @@
         <h3 class="what-logo">Partner</h3>
         <hr class="logo-hr">
         <div class="partner-logo-container">
-            <img alt="Microsoft logo" class="patner-logo" src="./Images/microsoft.png">
-            <img alt="Coca Cola logo" class="patner2-logo" src="./Images/cocacola.png">
+            <i class="fa-brands fa-microsoft partnerlogo"></i>
+            <i class="fa-brands fa-meta partnerlogo"></i>
+            <i class="fa-brands fa-google-play partnerlogo"></i>
+            <i class="fa-brands fa-airbnb partnerlogo"></i>
         </div>
     </section>
     <section class="sec-logo last-part">
-        <img alt="logo" class="footer-logo" src="./Images/logo.png">
+        <i class="fa-solid fa-gamepad footrt-logo main-logo"></i>
         <p class="dis-logo last-p">The World Game <br> Some Rights Reserved.</p>
     </section>
 

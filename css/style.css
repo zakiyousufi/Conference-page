@@ -23,10 +23,10 @@
 }
 
 .m-menu {
-  width: 30px;
-  margin-bottom: 3px;
-  margin-bottom: 10%;
-  border: 3px solid #272a31;
+  font-size: 25px;
+  color: #0b0031;
+  background-color: rgba(255, 255, 255, 0.17);
+  padding: 2px 4px;
 }
 
 .head-line {
@@ -51,27 +51,36 @@
 .head-link {
   color: #fff;
   margin-right: 20px;
+  
+}
+
+.h-logo { 
+  display: none;
+  color: #ec5242;
 }
 
 .menu-ul {
   list-style: none;
   display: none;
   flex-direction: column;
-  width: 100%;
-  height: auto;
-  padding-left: 2%;
+  width: 50%;
+  height: 300px;
+  padding-left: 5%;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #fff;
+  background-color: #ec5242;
   margin-bottom: 20%;
+  color: #fff;
+  border: 1px solid #ec5242;
+  border-radius: 0 0 50% 0;
 }
 
 .close {
   width: 50px;
   height: 50px;
   margin-top: 20px;
-}s
+}
 
 .links {
   padding-top: 5px;
@@ -80,7 +89,7 @@
 
 .menu-links {
   text-decoration: none;
-  color: #272a31;
+  color: #fff;
 }
 
 .menu-ul.active {
@@ -112,8 +121,13 @@
 .event-name {
   font-size: 30px;
   font-family: 'cocogoose', sans-serif;
-  width: 75%;
   color: #ec5242;
+}
+
+.year {   
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  color: #fff;
 }
 
 .event-dis {
@@ -130,6 +144,7 @@
   font-size: 24px;
   padding: 20px 20px;
   margin-top: 20px;
+  color: #fff;
 }
 
 .user-sec {
@@ -156,7 +171,7 @@
 .date {
   padding: 20px 40px;
   width: 100%;
-  background-color: rgba(256, 256, 256, 27%);
+  background-color: rgba(255, 255, 255, 0.103);
   margin-bottom: 20px;
   color: #ec5242;
   font-size: 14px;
@@ -173,12 +188,14 @@
 
 .icon-hover:hover {
   border: 2px solid #fff;
+  transition: 0.3s;
 }
 
 .icon {
-  width: 90px;
-  height: auto;
-  margin-right: 30px;
+  font-size: 65px;
+  text-align: center;
+  color: #fff;
+  margin: 10px 20px;
 }
 
 .partner {
@@ -304,13 +321,15 @@
     justify-content: space-between;
     background-color: #fff;
     height: 55px;
-    padding: 10px 30%;
+    padding: 10px 40%;
   }
 
   .h-logo {
-   color: #ec5242;
+   color: #fff;
    font-size: 30px;
    margin-right: 60%;
+   margin-top: 10px;
+   display: flex;
   }
 
   .menu-icon {
@@ -327,12 +346,10 @@
     justify-content: flex-end;
     padding: 50px 10px 20px 5px;
     width: 100%;
+    height: 100px;
+    background-color: #ec5242;
     margin-right: 40%;
-  }
-
-  .worldGame{
-    border: 2px solid #ec5242;
-    padding: 2px 2px;
+    border-radius: 0;
   }
 
   .head-line {
@@ -341,18 +358,18 @@
 
   .links {
     margin-right: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
   }
 
   .links :hover {
     padding: 2px 7px;
-    background-color: #ec5242;
+    background-color: rgba(255, 255, 255, 0.3);
     color: #fff;
     transition: 0.4s;
   }
 
   .close {
-    display: none;
+    color: #ec5242; 
   }
 
   .pg1-sec {
@@ -363,7 +380,10 @@
   }
 
   .event-name {
-    width: 90%;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: 40px;
+    stroke: none;
   }
 
   .event-dis {
@@ -388,7 +408,7 @@
   }
 
   .date {
-    width: 30%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
