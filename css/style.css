@@ -51,7 +51,6 @@
 .head-link {
   color: #fff;
   margin-right: 20px;
-
 }
 
 .h-logo {
@@ -97,9 +96,7 @@
 }
 
 .pg1-sec {
-  background: linear-gradient(45deg,
-      rgba(90, 167, 255, 0.466),
-      rgba(0, 0, 17, 0.9)), url("../Images/background.png");
+  background: linear-gradient(45deg, rgba(90, 167, 255, 0.466), rgba(0, 0, 17, 0.9)), url("../Images/background.png");
   height: auto;
   padding: 80px 50px;
   width: 100%;
@@ -126,7 +123,6 @@
 
 .year {
   font-family: "Inter", sans-serif;
-  font-style: bold;
   color: #fff;
 }
 
@@ -382,7 +378,6 @@
   .event-name {
     font-size: 35px;
     text-decoration: none;
-    font-weight: 40px;
     stroke: none;
   }
 

@@ -96,16 +96,16 @@
   margin: 2px 20px;
 }
 
+.footrt-logo {
+  font-size: 80px;
+  margin:0 20%;
+}
+
 .last-part {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   padding: 0 10%;
-}
-
-.footrt-logo {
-  font-size: 80px;
-  margin:0 20%;
 }
 
 .last-p {
